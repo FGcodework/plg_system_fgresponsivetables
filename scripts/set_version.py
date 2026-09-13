@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Set VERSION in fgresponsivetables.xml, media/joomla.asset.json, and
 updates.xml (including the release download URL) all at once, so a
@@ -18,7 +18,7 @@ MANIFEST = ROOT / "fgresponsivetables.xml"
 ASSET_JSON = ROOT / "media" / "joomla.asset.json"
 UPDATES_XML = ROOT / "updates.xml"
 ELEMENT = "fgresponsivetables"
-REPO = "ferino75/plg_system_fgresponsivetables"
+REPO = "FGcodework/plg_system_fgresponsivetables"
 
 
 def set_manifest_version(version):
