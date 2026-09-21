@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/FGcodework/plg_system_fgresponsivetables/releases"><img src="https://img.shields.io/github/v/release/FGcodework/plg_system_fgresponsivetables?color=FF6B4A&label=release" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/Joomla-4%20%7C%205%20%7C%206-1B7FBF" alt="Joomla 4 | 5 | 6">
-  <img src="https://img.shields.io/badge/PHP-7.4%2B-777BB4" alt="PHP 7.4+">
+  <img src="https://img.shields.io/badge/PHP-7.4%2B-purple" alt="PHP 7.4+">
   <a href="LICENSE.txt"><img src="https://img.shields.io/badge/license-GPL--2.0-green.svg" alt="License: GPL-2.0-or-later"></a>
   <img src="https://img.shields.io/github/downloads/FGcodework/plg_system_fgresponsivetables/total?cacheSeconds=3600" alt="Downloads">
 </p>
