@@ -162,6 +162,16 @@ Not an automated feature — just three field combinations worth starting from, 
 
 Accessibility (ARIA roles) stays **On** in all three — it costs a handful of attribute writes, never worth trading away.
 
+## Support
+
+**This plugin is free and open source.** If it has saved you time, a one-off tip on Ko-fi is welcome but entirely optional - no feature here is ever locked behind a paywall.
+
+<p>
+  <a href="https://ko-fi.com/fgcodework"><img src="https://storage.ko-fi.com/cdn/kofi3.png?v=4" alt="Support on Ko-fi" width="180" valign="middle"></a>
+  &nbsp;
+  <a href="https://fgcodework.github.io/"><img src="https://img.shields.io/badge/More%20FG%20Extensions-fgcodework.github.io-FF6B4A?style=for-the-badge" alt="More FG Extensions" valign="middle"></a>
+</p>
+
 ## License
 
 GPL-2.0-or-later — see [LICENSE.txt](LICENSE.txt).

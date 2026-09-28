@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.7
+- Reworked the support note on the Plugin tab to the shared FG layout: a short statement, the Ko-fi button and a "More FG Extensions" button linking to fgcodework.github.io. Translated into all five languages, structure and styling identical. The note no longer has a heading, so the `FIELD_SUPPORT_LABEL` string was removed from the manifest and every language file.
+- Added a matching Support section to README.md.
+
 ## 2.1.6
 - Split the plugin's admin form into "Plugin" and "Settings" tabs (matching the pattern already used on other FG plugins): a new `basic` fieldset holding only a `type="note"` field renders in Joomla's built-in "Plugin" tab (name/description area) with a short "Support this plugin" note (Ko-fi link, fgcodework.github.io link); the existing settings fields moved into a fieldset renamed `settings` with an explicit label, which Joomla then renders as its own "Settings" tab. Appearance and Compatibility remain their own separate tabs, unchanged.
 - Found and fixed a real, confirmed issue while doing this: `XML_DESCRIPTION` and `LOAD_ONLY_COM_CONTENT_DESC` contained literal HTML (`<code>responsiv</code>`, `<code>data-label</code>`, a bare `<head>`) across all five languages — the exact pattern that broke a sibling FG plugin's field descriptions on Joomla 5's inline-help rendering path (raw tags shown as literal text instead of being interpreted). Converted both strings to plain text in en-GB/sk-SK/de-DE/cs-CZ/pl-PL. The new support note's own HTML (real `<a href>` links) was kept, since `type="note"` fields render through a different path that does correctly display HTML, confirmed via a live, working example on that same sibling plugin.

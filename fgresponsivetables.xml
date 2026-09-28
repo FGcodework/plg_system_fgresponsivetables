@@ -45,7 +45,6 @@
 				<field
 					name="support_note"
 					type="note"
-					label="PLG_SYSTEM_FGRESPONSIVETABLES_FIELD_SUPPORT_LABEL"
 					description="PLG_SYSTEM_FGRESPONSIVETABLES_FIELD_SUPPORT_DESC"
 				/>
 			</fieldset>
