@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Joomla-4%20%7C%205%20%7C%206-1B7FBF" alt="Joomla 4 | 5 | 6">
   <img src="https://img.shields.io/badge/PHP-7.4%2B-purple" alt="PHP 7.4+">
   <a href="LICENSE.txt"><img src="https://img.shields.io/badge/license-GPL--2.0-green.svg" alt="License: GPL-2.0-or-later"></a>
-  <img src="https://img.shields.io/github/downloads/FGcodework/plg_system_fgresponsivetables/total?cacheSeconds=3600" alt="Downloads">
+  <img src="https://img.shields.io/github/downloads/FGcodework/plg_system_fgresponsivetables/total?cacheSeconds=3600&color=brown" alt="Downloads">
 </p>
 
 A Joomla 4/5/6 system plugin that turns any `<table class="responsiv">` into a labelled, accessible card layout on narrow screens — without touching the desktop table.
