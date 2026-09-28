@@ -3,6 +3,15 @@
 	<changelog>
 		<element>fgresponsivetables</element>
 		<type>plugin</type>
+		<version>2.1.7</version>
+		<fix>
+			<item>Reworked the support note on the Plugin tab to the shared FG layout: a short statement, the Ko-fi button and a "More FG Extensions" button linking to fgcodework.github.io. Translated into all five languages, structure and styling identical. The note no longer has a heading, so the FIELD_SUPPORT_LABEL string was removed from the manifest and every language file.</item>
+			<item>Added a matching Support section to README.md.</item>
+		</fix>
+	</changelog>
+	<changelog>
+		<element>fgresponsivetables</element>
+		<type>plugin</type>
 		<version>2.1.6</version>
 		<fix>
 			<item>Split the plugin's admin form into "Plugin" and "Settings" tabs (matching the pattern already used on other FG plugins): a new basic fieldset holding only a type="note" field renders in Joomla's built-in "Plugin" tab (name/description area) with a short "Support this plugin" note (Ko-fi link, fgcodework.github.io link); the existing settings fields moved into a fieldset renamed settings with an explicit label, which Joomla then renders as its own "Settings" tab. Appearance and Compatibility remain their own separate tabs, unchanged.</item>
