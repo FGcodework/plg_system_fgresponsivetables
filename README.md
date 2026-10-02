@@ -18,7 +18,7 @@ A Joomla 4/5/6 system plugin that turns any `<table class="responsiv">` into a l
 
 - **CSS Grid card layout** — label and value each get their own column, so a long header (e.g. "Cena za 1 hod. nad paušál (min. 3 hod.)") can wrap without ever colliding with the value.
 - **Accessible by default** — explicit `role`/`scope` attributes compensate for the `display:block` stacking, so screen readers still navigate the table normally on mobile. Respects an author-supplied `role="presentation"`.
-- **Colspan/rowspan-aware header resolution** — a grouped header (`<th colspan="2">Cena</th>` over `<th>hodina</th><th>km</th>`) resolves to the correct per-column label, not a naive cell-index guess.
+- **Colspan/rowspan-aware header resolution** — a grouped header (`<th colspan="2">Price</th>` over `<th>hour</th><th>km</th>`) resolves to the correct per-column label, not a naive cell-index guess.
 - **Nested-table safe** — uses native `table.rows` / `row.cells` throughout, so a `<table>` nested inside a cell is never touched by the outer table's processing.
 - **Reacts to container width, not just viewport** — `ResizeObserver` on the table's own wrapper, so it stacks correctly inside a narrow module, sidebar, or accordion panel even on a wide screen.
 - **Configurable**: table selector, exclude selector, breakpoint, card style (bordered card vs. plain dividing lines), optional float-clearing, optional legacy-class compatibility layer.
